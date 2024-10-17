@@ -1,9 +1,10 @@
+import Homepage from "@/pages/Homepage";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
-      hello there
-    </div>
+    <>
+      <Homepage/>
+    </>
   );
 }

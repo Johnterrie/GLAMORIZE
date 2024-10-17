@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "@/components/navigation";
+import Footer from "@/components/footer";
 
 
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className="bg-W900">
         <NavBar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

@@ -11,12 +11,15 @@ const config: Config = {
 		extend: {
 			colors: {
 				W900: "#FFFFFF",
-				B900: "#0E1422"
+				B900: "#0E1422",
+				W100: "#F6F6F6",
+				W200: "#E9E9EB",
 			},
 			fontSize: {
 
 				regular: "14px",
 				extraBold: "20px",
+				semiBold: "32px"
 
 
 			},
