@@ -17,9 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-W900">
-        <NavBar/>
-        {children}
+      <body className="bg-W900 max-w-[100vw]">
+        {/* <NavBar/> */}
+        {/* {children} */}
         <Footer/>
       </body>
     </html>

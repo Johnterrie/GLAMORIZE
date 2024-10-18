@@ -12,6 +12,7 @@ const config: Config = {
 			colors: {
 				W900: "#FFFFFF",
 				B900: "#0E1422",
+				B300: "#878A92",
 				W100: "#F6F6F6",
 				W200: "#E9E9EB",
 			},
@@ -19,7 +20,8 @@ const config: Config = {
 
 				regular: "14px",
 				extraBold: "20px",
-				semiBold: "32px"
+				semiBold: "32px",
+				normalBold: "24px"
 
 
 			},

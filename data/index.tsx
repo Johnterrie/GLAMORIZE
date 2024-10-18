@@ -1,6 +1,6 @@
 export const NavData = [{
     id: 0,
-    name: "Home", 
+    name: "Home",
     status: false
 },
 {
@@ -18,4 +18,27 @@ export const NavData = [{
     name: "Cantact",
     status: false
 }
+]
+
+
+export const footerData = [{
+    id: 0,
+    title: "SUPPORT",
+    Item1: "FQA",
+    Item2: "Terms of use",
+    Item3: "Privacy Policy",
+}, {
+    id: 1,
+    title: "COMPANY",
+    Item1: "About us",
+    Item2: "Contact",
+    Item3: "Careers",
+},
+{
+    id: 2,
+    title: "SHOP",
+    Item1: "My Account",
+    Item2: "Checkout",
+    Item3: "Cart",
+},
 ]

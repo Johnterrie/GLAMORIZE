@@ -4,7 +4,7 @@ import Header from "./header";
 
 export default function NavBar() {
   return (
-    <div className="w-[98.9vw]">
+    <div className="w-[98.5vw]">
       <Ads/>
       <Header/>
     </div>
