@@ -23,8 +23,8 @@ export default function ContentFooter() {
                 <div className="w-[450px] h-full flex justify-between items-start">
                         { footerData.map((result) => {
                                 return (
-                                    <div key={result.id} className="border-2 border-black w-[120px] text-B300 h-3/4">
-                                            <div  className="text-regular mb-[40px]">{result.title}</div>
+                                    <div key={result.id} className="w-[120px] text-B300 h-3/4">
+                                            <div  className="text-regular mb-[50px]">{result.title}</div>
                                             <div className="text-regular mb-[10px]">{result.Item1}</div>
                                             <div className="text-regular mb-[10px]">{result.Item2}</div>
                                             <div className="text-regular mb-[10px]">{result.Item3}</div>
@@ -32,6 +32,18 @@ export default function ContentFooter() {
                                 )
                             })
                         }
+                </div>
+
+                <div className="w-[176.03px] h-[97px]">
+                    <div className="text-B300 text-regular mb-[40px]">ACCEPTED PAYMENTS</div>
+
+                    <div className="flex justify-between items-center">
+
+                    <Image src='/Mastercard.png' alt="" width={30.03} height={32}/>
+                    <Image src='/Amex.png' alt="" width={56} height={32}/>
+                    <Image src='/Visa.png' alt="" width={42} height={32}/>
+
+                    </div>
                 </div>
             </div>
         </div>
