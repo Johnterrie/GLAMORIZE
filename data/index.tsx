@@ -15,7 +15,7 @@ export const NavData = [{
 },
 {
     id: 3,
-    name: "Cantact",
+    name: "Contact",
     status: false
 }
 ]
@@ -41,4 +41,36 @@ export const footerData = [{
     Item2: "Checkout",
     Item3: "Cart",
 },
+]
+
+export const SectionTwoData = [
+    {
+        id: 0,
+        src: "",
+        name: "",
+        inStock: true,
+        price: 35.00
+    },
+    {
+        id: 1,
+        src: "",
+        name: "",
+        inStock: true,
+        price: 35.00
+    },
+    {
+        id: 2,
+        src: "",
+        name: "",
+        inStock: true,
+        price: 35.00
+    },
+    {
+        id: 3,
+        src: "",
+        name: "",
+        inStock: true,
+        price: 35.00
+    },
+
 ]
