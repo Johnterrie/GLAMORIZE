@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SectionOne() {
     return (
-      <div className=" relative w-full bg-W100 flex justify-center items-center">
+      <div className="relative w-full bg-W100 flex justify-center items-center">
         <div className=" relative w-[1116px] h-[440px] flex items-end justify-between">
             <div className=" relative h-3/4">
                 <h1 className="relative text-semiBold font-extrabold">Fresh Arrivals Online</h1>

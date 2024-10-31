@@ -21,7 +21,8 @@ const config: Config = {
 				regular: "14px",
 				extraBold: "20px",
 				semiBold: "32px",
-				normalBold: "24px"
+				normalBold: "24px",
+				looseMedium: "12px",
 
 
 			},

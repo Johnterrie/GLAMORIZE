@@ -32,6 +32,7 @@ export default function ContentFooter() {
                                 )
                             })
                         }
+                    
                 </div>
 
                 <div className="w-[176.03px] h-[97px]">

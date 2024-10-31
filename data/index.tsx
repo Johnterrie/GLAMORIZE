@@ -43,34 +43,82 @@ export const footerData = [{
 },
 ]
 
-export const SectionTwoData = [
+export const SectionThreeData = [
     {
         id: 0,
-        src: "",
-        name: "",
+        src: "/cover.png",
+        name: "Classic Monochrome Tees",
         inStock: true,
-        price: 35.00
+        price: 35.00,
+        width:237,
+        height:312
     },
     {
         id: 1,
-        src: "",
-        name: "",
+        src: "/cover (1).png",
+        name: "Monochromatic Wardrobe",
         inStock: true,
-        price: 35.00
+        price: 27.00,
+        width:237,
+        height:312
     },
     {
         id: 2,
-        src: "",
-        name: "",
+        src: "/cover (2).png",
+        name: "Essential Neutrals",
         inStock: true,
-        price: 35.00
+        price: 22.00,
+        width:237,
+        height:312
     },
     {
         id: 3,
-        src: "",
-        name: "",
+        src: "/cover (3).png",
+        name: "UTRAANET Black",
         inStock: true,
-        price: 35.00
+        price: 43.00,
+        width:237,
+        height:312
+    },
+
+]
+
+export const SectionFiveData = [
+    {
+        id: 0,
+        src: "/Elegant Ebony.png",
+        name: "Elegant Ebony Sweatshirts",
+        inStock: true,
+        price: 35.00,
+        width:237,
+        height:312
+    },
+    {
+        id: 1,
+        src: "/Sleek Black.png",
+        name: "Sleek and Cozy Black",
+        inStock: true,
+        price: 57.00,
+        width:237,
+        height:312
+    },
+    {
+        id: 2,
+        src: "/Raw Black.png",
+        name: "Raw Black Tees",
+        inStock: true,
+        price: 19.00,
+        width:237,
+        height:312
+    },
+    {
+        id: 3,
+        src: "/Mockup.png",
+        name: "MOCKUP Black",
+        inStock: true,
+        price: 30.00,
+        width:237,
+        height:312
     },
 
 ]
