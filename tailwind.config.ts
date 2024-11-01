@@ -11,20 +11,24 @@ const config: Config = {
 		extend: {
 			colors: {
 				W900: "#FFFFFF",
+				Y400: "#FFD58A",
+				G400: "#83B18B",
 				B900: "#0E1422",
+				B500: "#5C5F6A",
+				B400: "#A3BEF8",
+				B200: "#B6B7BC",
 				B300: "#878A92",
+				B100: "#E6E7E8",
 				W100: "#F6F6F6",
 				W200: "#E9E9EB",
 			},
 			fontSize: {
-
 				regular: "14px",
 				extraBold: "20px",
 				semiBold: "32px",
 				normalBold: "24px",
 				looseMedium: "12px",
-
-
+				normalSemiBold: "18px",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

@@ -15,5 +15,13 @@ export interface ComProps {
 
 
 
+export interface ProductType {
+    name?: string;
+    inStock: boolean;
+    price: string;
+}
+
+
+
 
 
