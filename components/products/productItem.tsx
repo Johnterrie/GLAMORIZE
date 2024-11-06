@@ -25,7 +25,6 @@ const ProductItem = ({ name, inStock, price }: ProductType) => {
           <div className='text-normalBold font-bold'>{name}</div>
           <Image src="/Share.png" alt='Share' width={24} height={24} />
         </div>
-
         <div className='w-[272px] h-[28px] text-looseMedium text-B500 flex justify-between'>
           <div className='flex justify-around items-center w-[167px] h-[28px] rounded-full bg-W100'>
             <Image src="/Star.png" alt='Star' width={24} height={24} />
@@ -76,9 +75,6 @@ const ProductItem = ({ name, inStock, price }: ProductType) => {
         — Free shipping on orders $100+
         </div>
       </div>
-
-
-
     </div>
   )
 }
