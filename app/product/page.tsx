@@ -1,19 +1,14 @@
 import ProductItem from "@/components/products/productItem"
+import Review from "@/components/products/review"
 import RouteBar from "@/components/ui/routeBar"
 import { ProductType } from "@/types"
 
 
-const product: ProductType = {
-    name : "Raw Black T-Shirt Lineup",
-    inStock: true,
-    price: "75.00"
-}
 
 const ProductPage = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center">
-      <RouteBar {...product}/>
-      <ProductItem {...product}/>
+    <div className="w-[727px] h-[324px] border-2 border-black">
+      <Review/>
     </div>
   )
 }

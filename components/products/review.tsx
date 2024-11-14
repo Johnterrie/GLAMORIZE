@@ -1,11 +1,10 @@
-import React from 'react'
 
-const review = () => {
+const Review = () => {
   return (
-    <div>
-      
+    <div className=''>
+      hello there
     </div>
   )
 }
 
-export default review
+export default Review
