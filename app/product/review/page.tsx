@@ -1,9 +1,8 @@
-import React from 'react'
 
 const ReviewComment = () => {
   return (
-    <div>
-      hello there
+    <div className='w-[727px] h-[324px] border-2 border-black'>
+     review
     </div>
   )
 }
