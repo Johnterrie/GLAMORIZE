@@ -18,10 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (   
-      <div className="w-full flex flex-col justify-center items-center">
+      <div className="w-full transition delay-150 duration-300 ease-in-out flex flex-col justify-center items-center">
         <RouteBar {...product}/>
         <ProductItem {...product}/>
-        <div className="h-[700px] w-[1000px] flex items-center justify-between">
+        <div className=" w-[1000px] mb-[200px] flex items-start justify-between">
             <div className="w-[241px] h-[98px] flex flex-col justify-between">
               <div className="w-full h-[41px] flex items-center pl-[15px]">
                   <Image className="mr-[10px]" src="/More.png" width={24} height={24} alt="More"/>

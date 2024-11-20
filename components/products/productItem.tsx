@@ -16,7 +16,7 @@ const ProductItem = ({ name, inStock, price }: ProductType) => {
   };
 
   return (
-    <div className='w-[1092px] h-[574px] flex justify-between items-center'>
+    <div className='w-[1092px] h-[574px] flex mb-[200px] justify-between items-center'>
       <div className="relative w-[534px] h-full bg-W100 flex justify-center items-center">
         <Carousel />
       </div>
