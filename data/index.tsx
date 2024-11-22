@@ -123,4 +123,55 @@ export const SectionFiveData = [
 
 ]
 
+export const reviewData = [
+    {
+        id: 0,
+        name: "Emily Davis",
+        reviewDate: "1 WEEK AGO",
+        reviewData:  "This company always goes above and beyond to satisfy their customers."
+    },
+    {
+        id: 1,
+        name: "Daniel Smith",
+        reviewDate: "2 Month ago",
+        reviewData:  "I can't believe how affordable and high-quality this item is!"
+    },
+    {
+        id: 2,
+        name: "Benjamin Clark",
+        reviewDate: "1 WEEK AGO",
+        reviewData:  "These guys know their stuff, and it shows in their products."
+    },
+    {
+        id: 3,
+        name: "Emily Davis",
+        reviewDate: "1 WEEK AGO",
+        reviewData:  "This company always goes above and beyond to satisfy their customers."
+    },
+]
+
+
+export const copyData = [
+    {
+        id: 0,
+        src: "/Facebook.png"
+    },
+    {
+        id: 1,
+        src: "/Twitter.svg"
+    },
+    {
+        id: 2,
+        src: "/Pinterest.png"
+    },
+    {
+        id: 3,
+        src: "/Telegram.svg"
+    },
+    {
+        id: 4,
+        src: "/Whatsapp.png"
+    },
+]
+
 

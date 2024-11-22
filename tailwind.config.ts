@@ -25,6 +25,7 @@ const config: Config = {
 			fontSize: {
 				regular: "14px",
 				extraBold: "20px",
+				NormalSemoBold : "16px",
 				semiBold: "32px",
 				normalBold: "24px",
 				looseMedium: "12px",

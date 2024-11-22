@@ -3,8 +3,7 @@ import Image from "next/image";
 
 export default function Items({ src, width, alt, height, index, name, inStock, price }: ItemsProps) {
     return (
-
-        <div key={index} className="w-full relative flex items-center flex-col justify-between h-[400px] w-[264px]">
+        <div key={index} className="w-full  relative flex items-center flex-col justify-between h-[400px] w-[264px]">
             <div className="w-[248px] h-[312] bg-W100">
                 <Image src={src} width={width} alt={alt} height={height} />
             </div>
