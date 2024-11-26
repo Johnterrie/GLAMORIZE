@@ -7,7 +7,7 @@ import { ProductType } from '@/types'
 import { Button } from '../ui/button'
 import { Input } from '../ui/input'
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { copyData } from '@/data'
+import { copyData, shoppingCartData } from '@/data'
 import Link from 'next/link'
 
 
@@ -103,7 +103,7 @@ const ProductItem = ({ name, inStock, price }: ProductType) => {
             <Image src="/Whishlist.svg" width={24} height={24} alt='like' />
           </div>
 
-          <div className='absolute h-[540px] pb-[50px] w-[436px] bg-W900 z-40 bottom-0 border border-W500 flex flex-col items-center justify-between'>
+          <div className='absolute  hidden h-[540px] pb-[50px] w-[436px] bg-W900 z-40 bottom-0 border border-W500 flex flex-col items-center justify-between'>
             <div className='flex px-[40px] bg-W100 text-B900 w-full h-[72px] justify-between items-center'>
               <span className='font-bold'>Shopping Cart</span>
               <Link href="">
@@ -111,10 +111,50 @@ const ProductItem = ({ name, inStock, price }: ProductType) => {
               </Link>
             </div>
 
+            <div className='overflow-y-auto w-[352px] h-[280px]'>
+
+              {
+                shoppingCartData.map((result) => {
+                  return (
+                    <div key={result.id} className='w-full flex justify-between h-[112px] border-b border-W100'>
+                      <div className=' relative w-[80px] h-[80px] bg-W100 flex justify-center items-center'>
+                        <Image src={result.src} alt='product image' height={62} width={44} />
+                        <Image className='absolute right-0 top-0' src="/close.png" width={24} height={24} alt='close' />
+                      </div>
+
+                      <div className='h-[80px] flex flex-col justify-between'>
+                        <div className='flex justify-between items-center w-[240px] h-[25px]'>
+                          <span>{name}</span>
+                          <div>
+                            <div className='w-[47px] h-[24px] flex justify-between items-center'>
+                              <span className='w-[12px] h-[12px] bg-G300'></span>
+                              <span> - {result.size}</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className=' w-[190px] h-[40px] flex justify-between items-center'>
+                          <div className="flex justify-around font-bold text-regular items-center border-2 border-B100 w-[107px] h-[40px] ">
+                            <button className='w-[20px] h-[20px]' onClick={decrement}>-</button>
+                            <span>{count}</span>
+                            <button className='w-[20px] h-[20px] ' onClick={increment}>+</button>
+                          </div>
+                          <span>${result.price.toFixed(2)}</span>
+
+                        </div>
+                      </div>
+                    </div>)
+                })}
+
+
+
+
+
+
+
+            </div>
+
             <div>
-              <div className='border border-black w-full'>
-                hello there
-              </div>
 
 
               <div className=' w-[400px] pt-[10px] text h-[100px] px-[20px] flex flex-col items-center justify-between border-t border-w500 '>
@@ -134,6 +174,11 @@ const ProductItem = ({ name, inStock, price }: ProductType) => {
 
 
           </div>
+        </div>
+
+
+        <div className='absolute w-[435px] h-[648px] z-40 bg-W900 border border-black'>
+
         </div>
 
         <div className='text-looseMedium text-B500'>

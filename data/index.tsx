@@ -175,3 +175,35 @@ export const copyData = [
 ]
 
 
+
+export const shoppingCartData = [
+    {
+        id: 0,
+        price: 22.00,
+        size: "M",
+        colour: "#G300",
+        src: "/Product image.png"
+    },
+    {
+        id: 1,
+        price: 24.00,
+        size: "M",
+        colour: "#G300",
+        src: "/cover (2).png"
+    },
+    {
+        id: 2,
+        price: 22.00,
+        size: "M",
+        colour: "#G300",
+        src: "/cover (1).png"
+    },
+    {
+        id: 3,
+        price: 25.00,
+        size: "L",
+        colour: "#G300",
+        src: "/cover (3).png"
+    }
+]
+

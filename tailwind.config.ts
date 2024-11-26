@@ -21,6 +21,7 @@ const config: Config = {
 				B100: "#E6E7E8",
 				W100: "#F6F6F6",
 				W200: "#E9E9EB",
+				G300: "#98BE9E",
 			},
 			fontSize: {
 				regular: "14px",
